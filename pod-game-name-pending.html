@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POD Game!!!</title>
+    <link rel="stylesheet" href="pod-game-style.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1 class="glow">The Dungeon Dweller</h1>
+    </header>
+
+        <main class="big-text">
+            <p class="big-text-text" id="big-text-text">Welcome to name pending. This is a text based adventure game. This means that you get the benefit of an awesome videogame with no annoying graphics to distract you and no confusing controller to get in your way. I accidentally dropped you outside the tutorial so I need you to work with me. Down below is a list of things you are currently able to accomplish. All you can do right now is <em>look</em>. Go ahead and try that out.</p>
+        </main>
+        <aside class="inventory" id="inventory-aside"></aside>
+        <section class="input-div">
+            <textarea name="text-input" id="text-input" class="text-input" placeholder="Type your commands here"></textarea>
+            <button id="submit">Submit</button>
+        </section>
+        <footer class="commands-box">
+            <p id="small-text">Here is a list of commands you may use</p>
+            <ul id="commands-box"></ul>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="pod-game.js"></script>
+</body>
+</html>

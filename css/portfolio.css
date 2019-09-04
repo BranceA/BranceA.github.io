@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 5em;
+    background-color: red;
+}
+
+aside {
+    width: 20%;
+    height: 40em;
+    background-color: yellow;
+    display: inline-block;
+}
+
+main {
+    width: 80%;
+    height: 40em;
+    background-color: green;
+    float: right;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
